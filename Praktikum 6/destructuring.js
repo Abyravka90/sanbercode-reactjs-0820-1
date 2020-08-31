@@ -2,7 +2,7 @@
 var number = [1,2,3];
 var numberOne = number[0];
 var numberTwo = number[1];
-var numberThree = number[3];
+var numberThree = number[2];
 
 console.log(numberOne);
 
