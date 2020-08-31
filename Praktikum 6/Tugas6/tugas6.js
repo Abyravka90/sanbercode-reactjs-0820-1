@@ -21,3 +21,19 @@ const newFunction = literal  = (firstName, lastName) => {
 console.log(newFunction("William","Imoh").fullName());
 
 //soal 4
+const newObject = {
+    firstName: "Harry",
+    lastName: "Potter Holt",
+    destination: "Hogwarts React Conf",
+    occupation: "Deve-wizard Avocado",
+    spell: "Vimulus Renderus!!!"
+  }
+
+  const {firstName,lastName,destination,occupation,spell}=newObject;
+  console.log(firstName,lastName,destination,occupation)
+
+//soal 5
+const west = ["Will","Chris","Sam","Holly"];
+const east = ["Gill","Brian","Noel","Maggy"];
+const combined = [...west, ...east];
+console.log(combined) 
